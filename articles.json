@@ -1,0 +1,39 @@
+{
+"list":[
+    {"nom":"article n1", 
+    "categorie":"Homme", 
+    "prix":"10.50", 
+    "tailles":["M", "L", "XXL"],
+    "imagesrc":["Articles/articlen1.jpg"],
+    "description":"that's hot."},
+    
+    {"nom":"article n2", 
+    "categorie":"Homme", 
+    "prix":"15.50", 
+    "tailles":["S", "L", "XL"],
+    "imagesrc":["Articles/articlen2.jpg"],
+    "description":"I'll marry, a wealthy, man -doesn't that make you gay ? -not necessarely"},
+    
+    {"nom":"article n3", 
+    "categorie":"Homme", 
+    "prix":"1.60", 
+    "tailles":["M", "L", "XL"],
+    "imagesrc":["Articles/articlen3.jpg"],
+    "description":"the lachee comes free"},
+    
+    {"nom":"article n4", 
+    "categorie":"Homme", 
+    "prix":"1.60", 
+    "tailles":["L"],
+    "imagesrc":["Articles/articlen4.jpg"],
+    "description":"HOW COULD YOU DO THIS TO MEEEEEEEEEEEEE"},
+    
+    {"nom":"article n5", 
+    "categorie":"Homme", 
+    "prix":"1.60", 
+    "tailles":["S", "XL"],
+    "imagesrc":["Articles/articlen5.jpg"],
+    "description":"hey pretty baby with the sun in your eyes"},
+    
+  ]
+}
