@@ -1,21 +1,75 @@
 img.carousel{
-
-width: available;
-height: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 div.carousel{
-   width: 100%; 
+    width: 100%;
 }
 
 div.center{
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#container div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+ .pop-products{
+     position: relative;
+     float:left;
+     border-color: black;
+ }
+
+#footer{
+    display: flex;
+    justify-content: center;
+}
+#footer div{
+    position: relative;
+    float: left;
+}
+
+.pop-products img{
+    max-width:75%;
+    height:auto;
+}
+.pop-1{
+    flex:1;
+}
+.pop-products-text p{
+    position: absolute;
+    top:85%;
+    left:15%;
+    text-align: center;
+    font-size: larger;
+    color: #ff0303;
+}
+.bottom{
+    position: relative;
+}
+
+#LogginBox{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    background-color: #363636;
+    padding: 100px 100px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 12px;
+    width: 400px;
+    left: 40%;
+    box-shadow: 10px 10px 20px white;
+    z-index: 9;
 }
