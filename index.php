@@ -2,11 +2,12 @@
     require_once "utils.php";
     require_once "bd_utils.php";
     init_session();
-
-    if(isset($GET['action']))
-        if($GET['action'] = "logout"){
-        clear_session();
-        header("index.php");
+    if(!empty($GET)) {
+        if ($GET['action'] = "logout") {
+            clear_session();
+            echo "La session a été détruite !";
+            header('location: index.php');
+        }
     }
 
     if(isset($_POST['valid_connection']))
