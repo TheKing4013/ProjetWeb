@@ -1,6 +1,6 @@
 <?php
-$user="rick";
-$pass="toto";
+$user="root";
+$pass="";
 $dsn="mysql:host=localhost;dbname=databasewebproject";
 try {
     $dbh = new PDO($dsn, $user, $pass,
